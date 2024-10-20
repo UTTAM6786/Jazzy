@@ -33,8 +33,8 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.CHAT),
-            InlineKeyboardButton(text=_["S_B_7"], user_id=config.SOURCE),
+            InlineKeyboardButton(text=_["S_B_5"], url=config.CHAT),
+            InlineKeyboardButton(text=_["S_B_7"], url=config.SOURCE),
         ],
     ]
     return buttons
